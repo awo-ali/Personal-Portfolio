@@ -6,26 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="./styles/styles.css" />
+    <style></style>
   </head>
   <body>
     <div class="card">
-      <div class="header">
-        <header>
-          <nav></nav>
-          <nav></nav>
-        </header>
-      </div>
+      <header class="header">
+        <div class="header__logo">
+          <span>Awo Ali</span>
+          <button class="header__button" aria-label="menu button">
+            <span class="hamburger"></span>
+          </button>
+        </div>
+        
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item"><a href="home">Home</a></li>
+            <li class="header__item"><a href="portfolio">Portfolio</a></li>
+            <li class="header__item"><a href="about">About</a></li>
+          </ul>
+        </nav>
+      </header>
+
       <main>
-        <div class="main"></div>
-        <h1>Junior Software Developer.</h1>
-        <div class="block-underline"></div>
-        <p>
-          Lorem ipsum dolor sit amet. Et rerum sint et voluptatem neque At
-          assumenda dolorem qui sunt reiciendis. Sit possimus tempora et dolor
-          dolore vel rerum doloremque et laudantium voluptas et fugit iusto est
-          cumque dolor non similique voluptas.
-        </p>
+        <section class="home">
+          <h1 class="home__page" id="home">Junior Software Developer.</h1>
+          <p class="home__p1">
+            Nunc aliquam faucibus ac in donec commodo id. Dui viverra sit
+            feugiat massa pellentesque arcu at quis. Diam, elementum morbi
+            pellentesque blandit suscipit sit. Neque, et consequat phasellus
+            augue neque mollis tempor.
+          </p>
+        </section>
+
+        <section class="portfolio">
+          <div class="portfolio__title">
+            <h1 class="portfolio__heading">Portfolio</h1>
+            <div img src="downward-arrow.png" alt="downward-arrow">arrow</div>
+          </div>
+
+          <div class="project1-box"></div>
+
+          <div>
+            <div class="portfolio__pro1">Project 1</div>
+            <div src="" alt="icon">icon</div>
+            <div img src="" alt="code">code-icon</div>
+          </div>
+
+          <div class="portfolio__react/scss">
+            <div>REACT</div>
+            <div>SCSS</div>
+          </div>
+          
+        </section>
+
+        <section class="about">About</section>
+
+        <section class="contact">Contact</section>
       </main>
+      <footer class="footer">footer</footer>
     </div>
   </body>
 </html>
