@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap");
 * {
   background-color: rgb(221, 168, 168);
   margin: o;
@@ -22,8 +23,10 @@ body {
   flex-direction: row;
   justify-content: space-between;
   font-family: Sacramento, cursive;
+  font-weight: lighter;
   width: 100%;
   height: 29px;
+  color: rgb(239, 237, 225);
 }
 .header__button {
   width: 10vw;
@@ -47,15 +50,21 @@ main {
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
-  height: 40vh;
   border: 1px solid black;
 }
 .home__page {
-  background-color: wheat;
+  background-color: white;
   width: 100%;
+  font-size: 80px;
+  font-weight: 400;
+  text-decoration: underline;
+  font-family: cormorant;
+  word-spacing: 4rem;
+  height: 50vh;
 }
 .home__page__p1 {
   background-color: aqua;
+  height: 20vh;
 }
 
 .portfolio {
