@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap");
+
 * {
   background-color: gray;
   margin: o;
@@ -15,13 +16,19 @@ body {
 
 .header {
   align-items: center;
-  height: 5vh;
+  height: 4vh;
   width: 100%;
+
+  &__mobile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  
+  }
 
   &__logo {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: left;
     font-family: Sacramento, cursive;
     font-weight: lighter;
     width: 100%;
@@ -29,13 +36,13 @@ body {
     color: rgb(239, 237, 225);
   }
 
-  &__button {
-    width: 10vw;
+  &__menu {
+    display: flex;
+    justify-content: right;
+    width: 50vw;
     height: 3vh;
     background: none;
   }
-
-
 
   &__list {
     display: none;
@@ -54,9 +61,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  
   width: 100%;
-  
   border: 1px solid black;
 
   &__page {
@@ -65,28 +70,100 @@ main {
     font-size: 80px;
     font-weight: 400;
     font-family: cormorant;
-    word-spacing: 4rem;
     height: 35vh;
     border-bottom: 4px solid black;
-    
-    
-
-
   }
- 
 
-    &__p1 {
-      background-color: aqua;
-      height: 10vh;
-      align-items: center;
-      text-align:left
-    }
+  &__p1 {
+    background-color: darkslategray;
+    height: 13vh;
+    align-items: center;
+    text-align: left;
   }
 }
 
 .portfolio {
-  height: 50vh;
+  height: 25vh;
   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+
+  &__header{
+    background-color: pink;
+    display: flex;
+    justify-content: flex-start;
+    height: 4vh;
+    width: 100%;
+  }
+ 
+  &__title{
+    padding-right: 30px;
+    font-size: medium;
+    
+  }
+
+  &__arrow-image{
+    background-color: none;
+  
+  }
+
+  &__box1{
+    background-color: aquamarine;
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+
+  &__one{
+    background-color: peru;
+    display: flex;
+    flex-direction: row;
+
+  }
+
+  &__pro1 {
+    flex-direction: row;
+    width: 100%;
+    
+  }
+
+  &__pro1-icons{
+    flex-direction: row;
+    background-color: azure;
+    justify-content: flex-end;
+
+    
+
+    
+
+  
+
+  &__eye-icon{
+    
+    background-color: red;
+    
+
+  }
+
+  &__code{
+    
+    background-color: blu;
+    
+
+  }
+
+  &__button1{
+
+  }
+
+  &__R1{
+
+  }
+
+  &__SCSS1{
+
+  }
+
 }
 
 .footer {
@@ -98,7 +175,7 @@ main {
 
 .about {
   display: flex;
-  height: 10vh;
+  height: 5vh;
   border: 1px solid black;
   justify-content: center;
 }
