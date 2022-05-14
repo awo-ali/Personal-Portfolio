@@ -11,13 +11,15 @@
   <body>
     <div class="card">
       <header class="header">
-        <div class="header__logo">
-          <span>Awo Ali</span>
-          <button class="header__button" aria-label="menu button">
-            <span class="header__hamburger"img src="./images/menu.png" alt="menu" ></span>
-          </button>
+        <div class="header__mobile">
+          <div class="header__logo">
+            <span>Awo Ali</span>
+          </div>
+          <div class="header__menu">
+            <img src="./images/menu.png" alt="menu" />
+          </div>
         </div>
-        
+
         <nav class="header__nav">
           <ul class="header__list">
             <li class="header__item"><a href="home">Home</a></li>
@@ -39,24 +41,31 @@
         </section>
 
         <section class="portfolio">
-          <div class="portfolio__title">
-            <h1 class="portfolio__heading">Portfolio</h1>
-            <div img src="downward-arrow.png" alt="downward-arrow">arrow</div>
+          <div class="portfolio__header">
+            <h2 class="portfolio__title">Portfolio</h2>
+            <div class="portfolio__arrow-image">
+              <img src="./images/downward-arrow.png" alt="downward-arrow" />
+            </div>
           </div>
-
-          <div class="project1-box"></div>
 
           <div>
-            <div class="portfolio__pro1">Project 1</div>
-            <div src="" alt="icon">icon</div>
-            <div img src="" alt="code">code-icon</div>
+            <div class="portfolio__box1">box</div>
+            <div class="portfolio__one">
+              <h2 class="portfolio__pro1">Project 1</h2>
+              <div class="portfolio__pro1-icons">
+                <div class="portfolio__eye-icon">
+                  <img src="./images/eye-icon.png" alt="eye-icon" />
+                </div>
+                <div class="portfolio__code">
+                  <img src="./images/coding-icon.png" alt="code-icon" />
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__button1">
+              <button class="portfolio__R1">REACT</button>
+              <button class="portfolio__scss1">SCSS</button>
+            </div>
           </div>
-
-          <div class="portfolio__react/scss">
-            <div>REACT</div>
-            <div>SCSS</div>
-          </div>
-          
         </section>
 
         <section class="about">About</section>
