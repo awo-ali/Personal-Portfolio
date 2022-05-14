@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Cormorant:wght@300&display=swap');
 * {
-  background-color: rgb(221, 168, 168);
+  background-color: gray;
   margin: o;
   padding: o;
   box-sizing: border-box;
@@ -15,7 +15,7 @@ body {
 
 .header {
   align-items: center;
-  height: 10vh;
+  height: 5vh;
   width: 100%;
 
   &__logo {
@@ -32,8 +32,11 @@ body {
   &__button {
     width: 10vw;
     height: 3vh;
-    background: white;
+    background: none;
   }
+
+
+
   &__list {
     display: none;
   }
@@ -61,18 +64,22 @@ main {
     width: 100%;
     font-size: 80px;
     font-weight: 400;
-    text-decoration: underline;
-    text-decoration-thickness: ;
     font-family: cormorant;
     word-spacing: 4rem;
-    height: 50vh;
+    height: 35vh;
+    border-bottom: 4px solid black;
+    
+    
 
-   
+
+  }
+ 
 
     &__p1 {
       background-color: aqua;
-      height: 20vh;
-      text-align-last: start;
+      height: 10vh;
+      align-items: center;
+      text-align:left
     }
   }
 }
